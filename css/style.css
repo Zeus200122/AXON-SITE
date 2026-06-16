@@ -139,6 +139,12 @@ nav a:hover{
     box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
 
+.modules .cards{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:25px;
+}
+
 .card h3{
     color:#0B2341;
     margin-bottom:15px;
@@ -155,7 +161,7 @@ nav a:hover{
 
 .feature-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns:repeat(3, 1fr);
     gap:25px;
 }
 
