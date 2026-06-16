@@ -200,6 +200,57 @@ footer{
     padding:25px;
 }
 
+
+
+
+.screenshots{
+    padding:100px 0;
+    background:#F8FAFC;
+}
+
+.screenshots h2{
+    text-align:center;
+    margin-bottom:15px;
+    font-size:40px;
+}
+
+.screenshots p{
+    text-align:center;
+    margin-bottom:50px;
+    color:#666;
+}
+
+.screenshots .cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.screenshots .card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.screenshots .card:hover{
+    transform:translateY(-5px);
+}
+
+.screenshots .card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    display:block;
+}
+
+.screenshots .card h3{
+    padding:20px;
+    text-align:center;
+    margin:0;
+}
+
 @media(max-width:900px){
 
     .hero-content{
